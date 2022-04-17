@@ -2,6 +2,7 @@ package model;
 
 public class Chamado {
 	//public LocalDate dataChamado;
+	private int idChamado;
 	private double kmPercorrido;
 	private double consumo;
 	private Veiculo veiculo; //cria associação com a classe Veiculo
@@ -14,7 +15,36 @@ public class Chamado {
 		
 	}
 	
-	
+	public int getIdChamado() {
+		return idChamado;
+	}
+
+
+	public void setIdChamado(int idChamado) {
+		this.idChamado = idChamado;
+	}
+
+
+	public Veiculo getVeiculo() {
+		return veiculo;
+	}
+
+
+	public void setVeiculo(Veiculo veiculo) {
+		this.veiculo = veiculo;
+	}
+
+
+	public Funcionario getFuncionario() {
+		return funcionario;
+	}
+
+
+	public void setFuncionario(Funcionario funcionario) {
+		this.funcionario = funcionario;
+	}
+
+
 	public double getKmPercorrido() {
 		return kmPercorrido;
 	}

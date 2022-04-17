@@ -2,6 +2,15 @@ package model;
 import java.time.LocalDate;
 
 public class Veiculo {
+	private int idVeiculo;
+	public int getIdVeiculo() {
+		return idVeiculo;
+	}
+
+	public void setIdVeiculo(int idVeiculo) {
+		this.idVeiculo = idVeiculo;
+	}
+
 	private String placaVeiculo;
 	private LocalDate anoVeiculo;
 	private String marca;
